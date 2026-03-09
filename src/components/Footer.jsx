@@ -26,19 +26,28 @@ const Footer = () => {
             </Link>
             <a
               className=" hover:text-red-600 transition-all cursor-pointer"
-              href="/"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               About
             </a>
             <a
               className=" hover:text-red-600 transition-all cursor-pointer"
-              href="/"
+              to="services"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Services
             </a>
             <a
               className=" hover:text-red-600 transition-all cursor-pointer"
-              href="/"
+              to="review"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Reviews
             </a>
