@@ -126,7 +126,7 @@ const Navbar = () => {
             Reviews
           </Link>
 
-          <Button title="login" />
+          {/* <Button title="login" /> */}
         </div>
       </div>
     </div>
