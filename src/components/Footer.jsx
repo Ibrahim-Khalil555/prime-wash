@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -18,6 +18,9 @@ const Footer = () => {
             <Link
               className=" hover:text-red-600 transition-all cursor-pointer"
               to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Home
             </Link>
