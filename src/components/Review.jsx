@@ -1,7 +1,7 @@
 import ReviewCard from "../layouts/ReviewCard";
-import img1 from "../assets/img/pic1.png";
-import img2 from "../assets/img/pic2.png";
-import img3 from "../assets/img/pic3.png";
+import sophiaAzura from "../assets/img/pic1.png";
+import johnDeo from "../assets/img/pic2.png";
+import victoriaZoe from "../assets/img/pic3.png";
 
 const Review = () => {
   return (
@@ -10,19 +10,19 @@ const Review = () => {
         Customer's Review
       </h1>
       <div className=" flex flex-col md:flex-row gap-5 mt-5">
-        <ReviewCard img={img1} name="Sophia Azura">
+        <ReviewCard img={sophiaAzura} name="Sophia Azura">
           PrimeWash delivered excellent service and outstanding results. My car
           looked brand new, staff were professional, friendly, and efficient,
           and the overall experience exceeded my expectations completely from
           start to finish.
         </ReviewCard>
-        <ReviewCard img={img2} name="John Deo">
+        <ReviewCard img={johnDeo} name="John Deo">
           PrimeWash is my go to car wash service. Consistent results, great
           customer support, and careful cleaning make them reliable,
           trustworthy, and worth recommending to anyone who values quality car
           care.
         </ReviewCard>
-        <ReviewCard img={img3} name="Victoria Zoe">
+        <ReviewCard img={victoriaZoe} name="Victoria Zoe">
           PrimeWash is my go to car wash service. Consistent results, great
           customer support, and careful cleaning make them reliable,
           trustworthy, and worth recommending to anyone who values quality car
