@@ -2,13 +2,13 @@ import Button from "../layouts/Button";
 
 const Hero = () => {
   return (
-    <div className=" min-h-screen flex flex-row justify-between items-center lg:px-32 px-5">
+    <div className="relative h-64 w-full overflow-hidden">
       <img
         src="./assets/img/banner.jpg"
-        className=" bg-cover bg-no-repeat "
-        alt=""
+        className=" absolute inset-0 w-full h-full object-cover bg-no-repeat "
+        alt="hero image"
       />
-      <div className=" w-full lg:w-2/3 space-y-5">
+      <div className=" relative z-10 flex items-center justify-center h-full">
         <h1 className=" text-white font-semibold text-6xl">
           Premium Care for Every Drive.
         </h1>
