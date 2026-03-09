@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className=" bg-black text-white rounded-t-3xl mt-8 md:mt-0">
@@ -13,12 +15,12 @@ const Footer = () => {
         <div>
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Links</h1>
           <nav className=" flex flex-col gap-2">
-            <a
+            <Link
               className=" hover:text-red-600 transition-all cursor-pointer"
-              href="/"
+              to="home"
             >
               Home
-            </a>
+            </Link>
             <a
               className=" hover:text-red-600 transition-all cursor-pointer"
               href="/"
