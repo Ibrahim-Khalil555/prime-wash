@@ -6,7 +6,7 @@ const ReviewCard = (props) => {
       </div>
 
       <div className=" flex flex-row items-center mt-4 gap-4">
-        <img className=" rounded-full w-1/4" src="" alt={props.name} />
+        <img className=" rounded-full w-1/4" src={props.img} alt={props.name} />
         <h3 className=" font-semibold ">{props.name}</h3>
       </div>
     </div>
