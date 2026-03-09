@@ -126,7 +126,11 @@ const Navbar = () => {
             Reviews
           </Link>
 
+<<<<<<< HEAD
           {/* <Button title="login" /> */}
+=======
+           <Button title="login" /> 
+>>>>>>> ecc9dce3e8c987e2cb8539e42409d07b2555a584
         </div>
       </div>
     </div>
